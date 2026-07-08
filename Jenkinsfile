@@ -4,7 +4,7 @@ pipeline {
         stage('Clone') {
             steps {
                 // Clones the source code from the provided Git repository
-                git branch: 'main', url: 'https://github.com'
+                git branch: 'main', url: 'https://github.com/learner2845/raghu.git'
             }
         }
         stage('Build') {
